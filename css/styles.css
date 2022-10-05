@@ -1,0 +1,90 @@
+body {
+    font-family: 'open-sans', sans-serif;
+    background-color: #FF6C00;
+}
+
+header{
+    background-color: #303030;
+}
+:root {
+    --primary-text-color: #555555;
+    --title-text-color: #303030;
+    --primary-text-color-light: #9DA4BD;
+    --title-text-color-light: #FFFFFF;
+    --acent-text-color: #FF6C00;
+    --background-container: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* ------------header------------ */
+
+.header-link, 
+.header-tel{
+    color: var(--title-text-color-light);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+}
+.header-button{
+    color: #FFFFFF;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.hero-link{
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+
+.hero-pre-title {
+    color: rgba(157, 164, 189, 0.6);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    color: var(--title-text-color-light);
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+
+.hero-after-title {
+    color: var(--primary-text-color-light);
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
